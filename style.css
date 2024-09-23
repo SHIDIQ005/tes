@@ -1,0 +1,109 @@
+*, html{
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color: aqua;
+	height : 100vh;
+}
+
+div{
+	background-color : #7b1;
+	/*Digunakan untuk mengubah warna background pada format dalam div*/
+	margin : 5px;
+}
+
+.Navbar-container {
+	background-color: purple;
+	/*width : 500px;
+	untuk mengatur panjang kesamping*/
+	height : 100px:
+	/*width dan height digunakan untuk mengatur tinggi dan lebar tabel navigasi bar tadi*/
+	font-weight:800px;
+	/*ketebalan huruf*/
+}
+
+.ul-navbar{
+	background-color: grey;
+	/*
+	width : 500px;
+	height : 100px:
+	kalau width dan height digunakan disini maka tabel garis pada panjangnya akan sama kek panjang navigasi bar tadi sehingga akan menjorok kekanan dan tidak sejajar dengan navigasi bar
+	*/
+	display: flex;
+	/*Digunakan untuk mengubah shaf menjadi baris*/
+	justify-content: center;
+	/*untuk mengubah posisi ke 3 kolom tadi ke tengah */
+	align-items:center;
+}
+
+.li-navbar{
+	color: white;
+	/*border: 2px solid black; 
+	Digunakan untuk membuat garis pada border*/
+	list-style-type: none; 
+	/*Digunakan untuk menghilangkan titik  yang dibuat dengan list tadi, juga bisa digunakan untuk mengubah titik tadi menjadi bulat atau persegi */
+	padding: 10px;
+	/*Digunakan untuk memberikan jarak spasi pada huruf*/
+	margin:5px;
+	/*digunakan untuk memberi jarak antar garis border dengan ujung backgroundnya*/
+	/*background-color:yellow;
+	untuk membuat warna background*/
+	font-size:30px;
+	/*untuk memformat ukuran font*/
+}
+
+.anavbar {
+	color:white;
+	/*untuk warna font pada class anavbar*/
+	text-decoration:none;
+	/*digunakan untuk menghapus garis bawah yang terdaapt pada link*/
+	
+}
+
+.anavbar:hover{
+	/*digunakan untuk memberi gaya pada tombol navbar kita*/
+	color: red;
+	/*untuk perubahan warna font pada anavbar*/
+	background-color:blue;
+	/*untuk perubahan warna backgroung pada anavbar*/
+	transition: .5s ease-in-out;
+	/*untuk memberikan efek transisi pada anavbar tadi*/
+	transition-delay: .3s;
+	/*untuk memberikan jeda waktu sebelum transisi dimulai*/
+	border-radius: 8px;
+	/*untuk memberikan efek lengkun pada background anavbar */
+}
+
+.gambar-konten {
+	background-color:black;
+	display: flex;
+	justify-content: space-evenly;
+	/*untuk ngasih jarak antar gambar dan tulisannya*/
+	align-items: center;
+	flex-direction: column;
+	/*untuk menempatkan tulisannya dibawaah logo*/
+	color: tomato;
+	text-decoration: none;
+	font-size:30px;
+	
+}
+
+.img-konten{
+	width:30%;
+	height:30%;
+}
+
+.container-footer {
+	background-color: tomato;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.h1-footer {
+	font-size :40px
+}
+
+
